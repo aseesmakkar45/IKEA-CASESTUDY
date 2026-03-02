@@ -68,6 +68,16 @@ export default function ESGSustainability() {
                 </div>
             </AnimatedElement>
 
+            {/* Sustainability visual */}
+            <AnimatedElement variant="scaleIn">
+                <div className="mb-12 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/sustainability.png" alt="Sustainable Scandinavian living room with eco-friendly furniture" className="w-full h-56 md:h-72 object-cover" />
+                    <div className="bg-white/5 dark:bg-white/5 px-6 py-3">
+                        <p className="text-xs text-gray-500 dark:text-gray-400 italic">Sustainable living — IKEA's vision of affordable, eco-conscious home design using renewable and recycled materials.</p>
+                    </div>
+                </div>
+            </AnimatedElement>
+
             {/* Three Pillars */}
             {esgPillars.map((section, i) => (
                 <AnimatedElement key={i} variant="slideUp" delay={i * 0.1}>

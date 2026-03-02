@@ -65,6 +65,16 @@ export default function ScalabilityExpansion() {
                 </div>
             </AnimatedElement>
 
+            {/* Store visual */}
+            <AnimatedElement variant="scaleIn">
+                <div className="mb-12 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/store.png" alt="Modern IKEA-style blue and yellow retail store exterior" className="w-full h-56 md:h-72 object-cover" />
+                    <div className="bg-white/5 dark:bg-white/5 px-6 py-3">
+                        <p className="text-xs text-gray-500 dark:text-gray-400 italic">The iconic blue-and-yellow store format — replicated across 460+ locations in 62 markets worldwide.</p>
+                    </div>
+                </div>
+            </AnimatedElement>
+
             {/* Expansion Phases */}
             <AnimatedElement variant="slideUp">
                 <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-gray-100 mb-8">Expansion Phases</h3>

@@ -39,19 +39,31 @@ export default function CompanyOverview() {
             {/* Founder Narrative */}
             <AnimatedElement variant="slideUp">
                 <div className="card mb-16">
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-4">The Founder's Journey</h3>
-                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
-                        Ingvar Kamprad's entrepreneurial journey began at age 5, selling matches to neighbors. By 17, he registered IKEA —
-                        an acronym from his initials (I.K.) and the first letters of Elmtaryd and Agunnaryd, the farm and village where he grew up.
-                        What started as a mail-order business selling pens, wallets, and picture frames transformed into a furniture enterprise
-                        that would fundamentally alter global retail economics.
-                    </p>
-                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                        Kamprad's genius was not in furniture design per se, but in recognizing that the furniture industry's value chain was
-                        profoundly inefficient. Traditional furniture moved through layers of middlemen — manufacturers, wholesalers, retailers —
-                        each adding cost without proportional value. Kamprad saw the opportunity to vertically integrate, cut intermediaries,
-                        and pass savings to consumers. This insight, refined over decades, became the IKEA system.
-                    </p>
+                    <div className="flex flex-col md:flex-row gap-6">
+                        <div className="md:w-1/3 shrink-0">
+                            <img
+                                src="/founder.png"
+                                alt="Illustration of IKEA founder Ingvar Kamprad"
+                                className="w-full rounded-xl object-cover shadow-lg"
+                            />
+                            <p className="text-xs text-gray-400 dark:text-gray-600 mt-2 text-center italic">Ingvar Kamprad (1926–2018)</p>
+                        </div>
+                        <div className="flex-1">
+                            <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-4">The Founder's Journey</h3>
+                            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
+                                Ingvar Kamprad's entrepreneurial journey began at age 5, selling matches to neighbors. By 17, he registered IKEA —
+                                an acronym from his initials (I.K.) and the first letters of Elmtaryd and Agunnaryd, the farm and village where he grew up.
+                                What started as a mail-order business selling pens, wallets, and picture frames transformed into a furniture enterprise
+                                that would fundamentally alter global retail economics.
+                            </p>
+                            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                                Kamprad's genius was not in furniture design per se, but in recognizing that the furniture industry's value chain was
+                                profoundly inefficient. Traditional furniture moved through layers of middlemen — manufacturers, wholesalers, retailers —
+                                each adding cost without proportional value. Kamprad saw the opportunity to vertically integrate, cut intermediaries,
+                                and pass savings to consumers. This insight, refined over decades, became the IKEA system.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </AnimatedElement>
 

@@ -47,7 +47,7 @@ export default function HeroSection() {
                 </AnimatedElement>
 
                 <AnimatedElement variant="fadeIn" delay={0.8}>
-                    <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500 dark:text-gray-500">
+                    <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500 dark:text-gray-500 mb-10">
                         <div className="flex flex-col items-center">
                             <span className="text-2xl font-bold text-ikea-blue dark:text-ikea-yellow">€47.6B</span>
                             <span>Revenue (2023)</span>
@@ -64,6 +64,22 @@ export default function HeroSection() {
                             <span className="text-2xl font-bold text-ikea-blue dark:text-ikea-yellow">228K</span>
                             <span>Employees</span>
                         </div>
+                    </div>
+                </AnimatedElement>
+
+                {/* Team Credits */}
+                <AnimatedElement variant="slideUp" delay={1.0}>
+                    <div className="mt-2 mb-4">
+                        <p className="text-xs uppercase tracking-widest text-gray-400 dark:text-gray-600 mb-3">Presented by</p>
+                        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                            {['Asees Jot Singh', 'Astitav Gupta', 'Md. Wasim', 'Harshit'].map((name, i) => (
+                                <span key={i} className="text-sm font-medium text-gray-600 dark:text-gray-400 flex items-center gap-1.5">
+                                    <span className="w-1.5 h-1.5 rounded-full bg-ikea-yellow" />
+                                    {name}
+                                </span>
+                            ))}
+                        </div>
+                        <p className="text-xs text-gray-400 dark:text-gray-600 mt-2">B.E. Computer Engineering — Entrepreneurship Exploration</p>
                     </div>
                 </AnimatedElement>
             </div>

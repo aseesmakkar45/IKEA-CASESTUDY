@@ -47,6 +47,16 @@ export default function CostLeadership() {
                 </div>
             </AnimatedElement>
 
+            {/* Flat-pack visual */}
+            <AnimatedElement variant="scaleIn">
+                <div className="mb-12 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/flatpack.png" alt="Flat-pack furniture components laid out" className="w-full h-56 md:h-72 object-cover" />
+                    <div className="bg-white/5 dark:bg-white/5 px-6 py-3">
+                        <p className="text-xs text-gray-500 dark:text-gray-400 italic">The flat-pack revolution — IKEA's signature innovation that reduced shipping costs by 80% and transformed furniture logistics.</p>
+                    </div>
+                </div>
+            </AnimatedElement>
+
             {/* Animated Supply Chain */}
             <AnimatedElement variant="slideUp" delay={0.1}>
                 <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-gray-100 mb-8">The IKEA Value Chain</h3>

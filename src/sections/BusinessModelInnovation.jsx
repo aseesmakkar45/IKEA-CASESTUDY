@@ -44,6 +44,16 @@ export default function BusinessModelInnovation() {
                 align="center"
             />
 
+            {/* Showroom visual */}
+            <AnimatedElement variant="scaleIn">
+                <div className="mb-12 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/showroom.png" alt="IKEA showroom with staged room setups" className="w-full h-64 md:h-80 object-cover" />
+                    <div className="bg-white/5 dark:bg-white/5 px-6 py-3">
+                        <p className="text-xs text-gray-500 dark:text-gray-400 italic">The IKEA showroom experience — a curated, self-service walkthrough designed to maximize product exposure and inspire home solutions.</p>
+                    </div>
+                </div>
+            </AnimatedElement>
+
             {/* Business Model Comparison */}
             <AnimatedElement variant="slideUp">
                 <div className="card mb-12 overflow-hidden">
