@@ -18,13 +18,27 @@ const navLinks = [
     { id: 'conclusion', label: 'Conclusion' },
     { id: 'qa', label: 'Q&A' },
 ];
+// Map each nav link id to its slide index in presentation mode
+// Slide order: Home(0), Overview(1), Opportunity(2), BusinessModel(3), CostLeadership(4),
+// DataViz(5), Scalability(6), Disruption(7), Crisis(8), Turnaround(9), ESG(10),
+// SWOT(11), Lessons(12), Conclusion(13), QA(14)
+const NAV_TO_SLIDE = {
+    'home': 0, 'overview': 1, 'opportunity': 2, 'business-model': 3,
+    'cost-leadership': 4, 'scalability': 6, 'disruption': 7, 'crisis': 8,
+    'turnaround': 9, 'esg': 10, 'swot-porter': 11, 'lessons': 12,
+    'conclusion': 13, 'qa': 14,
+};
 
-export default function Navbar({ darkMode, setDarkMode, audioMuted, setAudioMuted, presentationMode, setPresentationMode }) {
+// Reverse map: slide index → nav id
+const SLIDE_TO_NAV = Object.fromEntries(Object.entries(NAV_TO_SLIDE).map(([k, v]) => [v, k]));
+
+export default function Navbar({ darkMode, setDarkMode, audioMuted, setAudioMuted, presentationMode, setPresentationMode, currentSlide, onSlideChange }) {
     const [scrolled, setScrolled] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
 
     useEffect(() => {
+        if (presentationMode) return; // skip scroll tracking in presentation mode
         const handleScroll = () => {
             setScrolled(window.scrollY > 50);
             const sections = navLinks.map(l => document.getElementById(l.id)).filter(Boolean);
@@ -37,7 +51,19 @@ export default function Navbar({ darkMode, setDarkMode, audioMuted, setAudioMute
         };
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [presentationMode]);
+
+    // In presentation mode, derive active section from the current slide
+    const effectiveActive = presentationMode ? (SLIDE_TO_NAV[currentSlide] || 'home') : activeSection;
+
+    const handleNavClick = (e, linkId) => {
+        if (presentationMode && onSlideChange) {
+            e.preventDefault();
+            const slideIdx = NAV_TO_SLIDE[linkId];
+            if (slideIdx !== undefined) onSlideChange(slideIdx);
+        }
+        setMobileOpen(false);
+    };
 
     return (
         <>
@@ -63,7 +89,8 @@ export default function Navbar({ darkMode, setDarkMode, audioMuted, setAudioMute
                                 <a
                                     key={link.id}
                                     href={`#${link.id}`}
-                                    className={`px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${activeSection === link.id
+                                    onClick={(e) => handleNavClick(e, link.id)}
+                                    className={`px-2.5 py-1.5 rounded-lg text-xs font-medium transition-all duration-200 ${effectiveActive === link.id
                                         ? 'bg-ikea-blue text-white dark:bg-ikea-yellow dark:text-ikea-blue'
                                         : 'text-gray-600 dark:text-gray-400 hover:text-ikea-blue dark:hover:text-ikea-yellow hover:bg-gray-100 dark:hover:bg-dark-card'
                                         }`}
@@ -121,8 +148,8 @@ export default function Navbar({ darkMode, setDarkMode, audioMuted, setAudioMute
                                 <a
                                     key={link.id}
                                     href={`#${link.id}`}
-                                    onClick={() => setMobileOpen(false)}
-                                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-all ${activeSection === link.id
+                                    onClick={(e) => handleNavClick(e, link.id)}
+                                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-all ${effectiveActive === link.id
                                         ? 'bg-ikea-blue text-white dark:bg-ikea-yellow dark:text-ikea-blue'
                                         : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-dark-card'
                                         }`}

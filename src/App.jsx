@@ -214,6 +214,8 @@ export default function App() {
           setAudioMuted={setAudioMuted}
           presentationMode={presentationMode}
           setPresentationMode={(val) => togglePresentation(val)}
+          currentSlide={currentSlide}
+          onSlideChange={setCurrentSlide}
         />
 
         {/* Slides container */}
