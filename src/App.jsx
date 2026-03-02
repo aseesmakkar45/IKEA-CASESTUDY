@@ -87,7 +87,7 @@ function Footer() {
           <div className="text-xs text-gray-400 dark:text-gray-600 space-y-1">
             <p>References: Christensen (1997), Kim & Mauborgne (2005), Porter (1980, 1985), Sarasvathy (2001), Teece (2007), Prahalad & Ramaswamy (2004)</p>
             <p>Data sources: Inter IKEA Group Annual Reports, Ingka Group Financial Summaries, Harvard Business School Case Studies</p>
-            <p className="mt-3">B.E. Computer Engineering — Entrepreneurship Exploration</p>
+            <p className="mt-3">B. Tech 2nd Semester — Entrepreneurship Exploration</p>
           </div>
         </div>
       </div>

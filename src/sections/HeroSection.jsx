@@ -79,7 +79,7 @@ export default function HeroSection() {
                                 </span>
                             ))}
                         </div>
-                        <p className="text-xs text-gray-400 dark:text-gray-600 mt-2">B.E. Computer Engineering — Entrepreneurship Exploration</p>
+                        <p className="text-xs text-gray-400 dark:text-gray-600 mt-2">B. Tech 2nd Semester — Entrepreneurship Exploration</p>
                     </div>
                 </AnimatedElement>
             </div>
