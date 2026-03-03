@@ -30,7 +30,10 @@ const NAV_TO_SLIDE = {
 };
 
 // Reverse map: slide index → nav id
-const SLIDE_TO_NAV = Object.fromEntries(Object.entries(NAV_TO_SLIDE).map(([k, v]) => [v, k]));
+const SLIDE_TO_NAV = {
+    ...Object.fromEntries(Object.entries(NAV_TO_SLIDE).map(([k, v]) => [v, k])),
+    5: 'cost-leadership', // Keep Cost Leadership highlighted for the Data Dashboard slide
+};
 
 export default function Navbar({ darkMode, setDarkMode, audioMuted, setAudioMuted, presentationMode, setPresentationMode, currentSlide, onSlideChange }) {
     const [scrolled, setScrolled] = useState(false);
