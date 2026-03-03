@@ -1,0 +1,87 @@
+IKEA CASE STUDY: PRESENTATION SCRIPT (4 SPEAKERS)
+
+Speakers: Asees Jot Singh (Asees), Astitav Gupta (Astitav), Md. Wasim (Wasim), Harshit
+
+Note: This script is designed for Presentation Mode. Click the monitor icon in the top right to start, and use arrow keys to navigate. Instructions like [Point to X] indicate gestures for the speaker.
+
+---------------------------------------------------
+1. INTRO & OVERVIEW
+Speaker: Asees
+Slides: Home (Slide 1) & Company Overview (Slide 2)
+
+Asees:
+[On Slide 1: Home]
+"Good morning, Professor and everyone. We are Asees, Astitav, Wasim, and Harshit, and today we're presenting an entrepreneurial exploration of IKEA. 
+
+As you can see on our title slide here, our central thesis is simple: 'Imagine a world where only the rich could afford design… IKEA disrupted it.' While disruption is often associated with Silicon Valley tech, our case study argues that true disruption is often fundamentally about business model innovation.
+
+[Press Right Arrow -> Slide 2: Company Overview]
+If you look at the 'By the Numbers' grid on screen, the scale is staggering: €47.6 billion in revenue, over 460 stores, and nearly 700 million annual visits. 
+
+But drawing your attention to the illustration on the left—that’s Ingvar Kamprad. He didn't start with a €40 Billion vision. As the timeline shows, he started by selling matches at age 5, and founded IKEA at 17 as a mail-order catalog. Academic literature calls this 'Effectuation Theory'—starting with the means you have, rather than a predetermined grand plan."
+
+---------------------------------------------------
+2. OPPORTUNITY & BUSINESS MODEL
+Speaker: Astitav
+Slides: Opportunity Recognition (Slide 3) & Business Model (Slide 4)
+
+Astitav:
+[Press Right Arrow -> Slide 3: Opportunity Recognition]
+"Thank you Asees. To understand how Kamprad built this, we need to look at the market gap he identified—what we call 'Opportunity Recognition.'
+
+As highlighted by the three cards on screen, post-war Sweden saw massive urbanization and a housing boom, but furniture was an elite, expensive commodity. By targeting this non-consuming demographic of young families, IKEA executed a perfect 'Blue Ocean Strategy.' They created a new market space rather than fighting incumbents over the old one.
+
+[Press Right Arrow -> Slide 4: Business Model]
+The engine that powered this strategy is their business model. On screen, the top image shows the 'Self-Service Showroom.' This isn't just a store; it’s a designed behavioral experience that increases dwell time and average order value.
+
+But look at the 'Traditional vs. IKEA' comparison chart below that. While traditional retail stacks 70 to 100% in markups through middlemen (the red boxes), IKEA’s integrated model (the green boxes) bypasses them entirely. By controlling design, sourcing directly, and forcing the customer to be a 'co-producer' who handles final assembly, they achieve an unassailable 50-60% cost advantage."
+
+---------------------------------------------------
+3. COST LEADERSHIP & SCALABILITY 
+Speaker: Wasim
+Slides: Cost Leadership (Slide 5), Data (Slide 6), Expansion (Slide 7)
+
+Wasim:
+[Press Right Arrow -> Slide 5: Cost Leadership]
+"Building on that, I want to draw your attention to the visual of the flat-pack components on screen. 
+
+This image represents the holy grail of IKEA's 'Cost Leadership' strategy. Below the image, you'll see the 6-step IKEA Value Chain. The flat-pack innovation (step 4) isn't just packaging—it's logistics. It reduces shipping costs by 80% because, fundamentally, IKEA doesn’t pay to ship empty air. 
+
+[Press Right Arrow -> Slide 6: Revenue & Data]
+Let’s look at the data. On the interactive revenue chart here, you can see their explosive, uninterrupted growth trajectory from the 2000s to their current €47.6 billion peak. This financial stability financed their global push without requiring outside equity, preserving the founder's control.
+
+[Press Right Arrow -> Slide 7: Global Expansion]
+And that global push is mapped out here. As the map visualization shows, they are heavily concentrated in Europe but are aggressively moving into emerging markets. Look at the timeline below the map: they used a phased approach—starting locally, conquering the Nordics, then Europe, and finally going global. This 'Global Value Chain' scaling creates a flywheel effect: more stores create more volume, which drives costs down further."
+
+---------------------------------------------------
+4. DISRUPTION, CRISES & TURNAROUND
+Speaker: Harshit
+Slides: Disruption (Slide 8), Crisis (Slide 9), Turnaround (Slide 10)
+
+Harshit:
+[Press Right Arrow -> Slide 8: Disruptive Innovation]
+"Thanks, Wasim. But no growth curve is a straight line. 
+
+If you look at the 'New Market Disruption' model on screen, IKEA perfectly fits Christensen’s theory. They didn't target the high end; they started at the low end with 'good-enough' products and slowly moved upmarket. 
+
+[Press Right Arrow -> Slide 9: Crisis Phases]
+However, as shown in the three cards on this slide, they faced massive crises. For instance, the Swedish cartel boycott in response to their low prices actually forced IKEA into offshore manufacturing—inadvertently giving them an even massive cost advantage. More recently, the 'digital blindspot' almost cost them their market lead as e-commerce exploded.
+
+[Press Right Arrow -> Slide 10: Strategic Turnaround]
+Which brings us to their turnaround strategy. The split-screen layout here shows their dual approach: 'Organizational Ambidexterity'. They are exploiting physical retail by opening smaller city-center stores, while exploring digital through AR apps and direct-to-consumer logistics. They recognized that relying solely on massive suburban blue boxes was no longer sufficient."
+
+---------------------------------------------------
+5. ESG, SWOT, LESSONS & CONCLUSION
+Speaker: Asees
+Slides: ESG (Slide 11), SWOT (Slide 12), Lessons (Slide 13)
+
+Asees:
+[Press Right Arrow -> Slide 11: ESG]
+"Finally, looking to the future. Focus on the sustainability visual and the 'Fast Furniture Paradox' box on screen. IKEA's business model requires high consumption, which is inherently unsustainable. To counter this, they are investing €2.5 billion in renewable energy and launching furniture buy-back programs, turning ESG into a competitive moat rather than just a compliance cost.
+
+[Press P to quickly skip to Slide 13: Lessons]
+To conclude, this case study leaves us with six core entrepreneurship lessons, summarized on screen. Chief among them: the business model *is* the product, constraints (like high shipping costs) drive the best innovation, and you must own the bottlenecks in your value chain. 
+
+We've also prepared comprehensive SWOT and Porter’s Five Forces analyses which we can navigate to during the Q&A. 
+
+Thank you, we're now open for questions."
