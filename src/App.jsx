@@ -84,9 +84,22 @@ function Footer() {
             An interactive exploration of IKEA for Entrepreneurship Exploration coursework.
             This website is a student project and is not affiliated with Inter IKEA Systems B.V.
           </p>
-          <div className="text-xs text-gray-400 dark:text-gray-600 space-y-1">
-            <p>References: Christensen (1997), Kim & Mauborgne (2005), Porter (1980, 1985), Sarasvathy (2001), Teece (2007), Prahalad & Ramaswamy (2004)</p>
-            <p>Data sources: Inter IKEA Group Annual Reports, Ingka Group Financial Summaries, Harvard Business School Case Studies</p>
+          <div className="text-xs text-gray-400 dark:text-gray-600 space-y-2">
+            <p>
+              References:{' '}
+              <a href="https://hbr.org/1997/12/the-innovators-dilemma" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Christensen (1997)</a>,{' '}
+              <a href="https://www.blueoceanstrategy.com/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Kim & Mauborgne (2005)</a>,{' '}
+              <a href="https://www.isc.hbs.edu/strategy/business-strategy/Pages/default.aspx" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Porter (1980, 1985)</a>,{' '}
+              <a href="https://www.effectuation.org/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Sarasvathy (2001)</a>,{' '}
+              <a href="https://onlinelibrary.wiley.com/doi/10.1002/smj.600" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Teece (2007)</a>,{' '}
+              <a href="https://hbr.org/2004/01/co-creating-unique-value-with-customers" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Prahalad & Ramaswamy (2004)</a>
+            </p>
+            <p>
+              Data sources:{' '}
+              <a href="https://about.ikea.com/en/about-us/year-in-review" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Inter IKEA Group Annual Reports</a>,{' '}
+              <a href="https://www.ingka.com/about-us/annual-and-sustainability-summary/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Ingka Group Financial Summaries</a>,{' '}
+              <a href="https://hbsp.harvard.edu/cases/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Harvard Business School Case Studies</a>
+            </p>
             <p className="mt-3">B. Tech 2nd Semester — Entrepreneurship Exploration</p>
           </div>
         </div>
