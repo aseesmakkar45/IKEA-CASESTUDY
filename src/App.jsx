@@ -7,3 +7,5 @@ function App() {
 }
 
 export default App
+
+// Added presentation mode toggle state
