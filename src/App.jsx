@@ -96,7 +96,7 @@ function Footer() {
             </p>
             <p>
               Data sources:{' '}
-              <a href="https://about.ikea.com/en/about-us/financial-results" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Inter IKEA Group Annual Reports</a>,{' '}
+              <a href="https://www.ikea.com/global/en/our-business/how-we-work/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Inter IKEA Group Annual Reports</a>,{' '}
               <a href="https://www.ingka.com/reporting/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Ingka Group Financial Summaries</a>,{' '}
               <a href="https://hbsp.harvard.edu/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-ikea-blue dark:hover:text-ikea-yellow transition-colors">Harvard Business School Case Studies</a>
             </p>
