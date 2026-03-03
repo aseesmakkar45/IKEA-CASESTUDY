@@ -11,18 +11,17 @@ export default function ProfessorQA() {
         <SectionWrapper id="qa">
             <SectionHeader
                 tag="Chapter XII"
-                title="Tough Questions & Answers"
-                subtitle="Anticipating the toughest questions about IKEA's strategy with well-reasoned, framework-backed responses."
+                title="Strategic Q&A"
+                subtitle="Exploring the most challenging questions regarding IKEA's strategic choices with well-reasoned, framework-backed analysis."
                 align="center"
             />
 
             <AnimatedElement variant="slideUp">
-                <div className="card mb-8 bg-gradient-to-br from-red-50 to-transparent dark:from-red-900/10">
+                <div className="card mb-8 bg-gradient-to-br from-blue-50 to-transparent dark:from-blue-900/10">
                     <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                        <strong className="text-red-600 dark:text-red-400">Preparation Note:</strong> The questions below represent
-                        the most challenging questions a professor might raise during case discussion. Each answer draws on
-                        multiple frameworks and presents well-reasoned arguments. The goal is not to "defend" IKEA
-                        but to show analytical thinking.
+                        <strong className="text-ikea-blue dark:text-ikea-yellow">Insightful Analysis:</strong> The questions below represent
+                        some of the most thought-provoking inquiries regarding IKEA's business model. Each answer draws on
+                        established strategic frameworks to provide comprehensive, well-reasoned perspectives on their approach.
                     </p>
                 </div>
             </AnimatedElement>
@@ -79,10 +78,9 @@ export default function ProfessorQA() {
             </div>
 
             <StrategicInsight>
-                The strongest presentations don't defend the case subject — they critically analyze it. Showing
-                awareness of IKEA's limitations (sustainability paradox, cultural assumptions, governance opacity) demonstrates deeper
-                understanding than uncritical praise. The key is being able to hold multiple, potentially
-                contradictory perspectives at the same time.
+                A robust understanding of IKEA's strategy requires critical analysis rather than simple observation. By examining
+                IKEA's limitations—such as the sustainability paradox, cultural assumptions, and governance opacity—we gain a deeper
+                appreciation of the complex trade-offs inherent in their global operations.
             </StrategicInsight>
         </SectionWrapper>
     );
