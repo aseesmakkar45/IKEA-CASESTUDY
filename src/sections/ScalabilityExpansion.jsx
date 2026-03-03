@@ -41,8 +41,8 @@ export default function ScalabilityExpansion() {
             <AnimatedElement variant="scaleIn" delay={0.1}>
                 <div className="card mb-12">
                     <h3 className="text-lg font-bold text-gray-900 dark:text-gray-100 mb-6">Global Footprint</h3>
-                    <div className="relative w-full" style={{ paddingBottom: '50%' }}>
-                        <svg viewBox="0 0 100 70" className="absolute inset-0 w-full h-full">
+                    <div className="relative w-full" style={{ paddingBottom: '80%' }}>
+                        <svg viewBox="0 0 100 80" className="absolute inset-0 w-full h-full xl:overflow-visible">
                             {/* Simplified world outline */}
                             <ellipse cx="50" cy="35" rx="48" ry="33" fill="none" stroke="currentColor" className="text-gray-200 dark:text-gray-700" strokeWidth="0.3" />
 
