@@ -1,1 +1,0 @@
-export default function ValueChain() { return <div>Value Chain</div> }

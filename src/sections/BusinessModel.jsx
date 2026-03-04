@@ -1,1 +1,0 @@
-export default function BusinessModel() { return <div>Business Model</div> }
