@@ -9,3 +9,4 @@ function App() {
 export default App
 
 // Added presentation mode toggle state
+// Handle keyboard navigation for slides
