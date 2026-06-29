@@ -1,6 +1,6 @@
 # 🛋️ IKEA Entrepreneurship Exploration Case Study
 
-**[👉 View the Interactive Case Study Live Here](https://aseesmakkar45.github.io/IKEA-CASESTUDY/)**
+**[👉 View the Interactive Case Study Live Here](https://vaccasestudy.vercel.app/)**
 
 An interactive, presentation-style React application built to explore the entrepreneurial journey, business model disruption, and global scaling strategy of IKEA. 
 
